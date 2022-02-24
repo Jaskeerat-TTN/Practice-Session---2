@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 0 4rem;
+}
+
+section{
+    background-color: #f4f4f4;
+    padding: 2rem 7rem;
+}
+
+footer{
+    padding: 2rem 7rem;
+    padding-bottom: 1rem;
+    background: #e7e7e7;
+}
+
+#logo{
+    width: 100%;
+}
+
+.sub-header{
+    margin: 0;
+}
+
+.sub-header > *{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-icons{
+    font-size: 12px;
+}
+
+.navbar-icons i{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.white-space{
+    width: 80px;
+}
+
+.navigation-btn-container{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+.navigation-btn{
+    font-size: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+    height: 50px;
+}
+
+.service-container{
+    color: #fff;
+}
+
+.service i{
+    font-size: 5rem;
+}
+
+.dot-container{
+    display: flex;
+}
+
+.dot-container .dot{
+    width: 15px;
+    height: 15px;
+}
+
+.project{
+    height: 15rem;
+}
+
+.project > div{
+    padding: 0 0.8rem;
+}
+
+@media screen and (max-width: 992px){
+    #logo{
+        width: auto;
+    }
+
+    /* .navbar-icons{
+        padding: 5px 0;
+    } */
+}
